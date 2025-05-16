@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
 <head>
     <title>badada的网页Title</title>
@@ -20,4 +20,10 @@
     -->
 </body>
 </html>
-
+-->
+---
+layout: default
+title: Home
+---
+# Welcome to My Site!
+This is a Jekyll site using the Architect theme.
