@@ -24,7 +24,16 @@
 -->
 ---
 layout: default
-title: Home
+title: badada的网页Title
 ---
-# Welcome to My Site!
-This is a Jekyll site using the Architect theme.
+
+# Blog Blog Blog!
+
+Welcome to my little corner of the internet!
+
+## Header 2
+
+> The first one blog!
+>
+> LET'S DO IT.
+> 
