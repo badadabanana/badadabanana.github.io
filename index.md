@@ -1,3 +1,18 @@
+---
+layout: default
+title: badada的网页Title
+---
+
+# Blog Blog Blog!
+
+Welcome to my little corner of the internet!
+
+## Header 2
+
+> The first one blog!
+>
+> LET'S DO IT.
+> 
 <!-- 
     <!DOCTYPE html>
     <html>
@@ -22,18 +37,4 @@
     </body>
     </html>
 -->
----
-layout: default
-title: badada的网页Title
----
-
-# Blog Blog Blog!
-
-Welcome to my little corner of the internet!
-
-## Header 2
-
-> The first one blog!
->
-> LET'S DO IT.
-> 
+ing......
