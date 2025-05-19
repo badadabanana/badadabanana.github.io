@@ -3,6 +3,18 @@ layout: default
 title: badada的网页Title
 ---
 
+<div style="display: flex;">
+  <div style="width: 30%; background: #f0f0f0; padding: 10px;">
+    ​**侧边栏菜单**​
+    - 选项1
+    - 选项2
+  </div>
+  <div style="width: 70%; padding: 10px;">
+    ## 主内容
+    这里是正文...
+  </div>
+</div>
+
 # Blog Blog Blog!
 
 Welcome to my little corner of the internet!
@@ -71,7 +83,7 @@ Welcome to my little corner of the internet!
 
 [Blog](https://badadabanana.github.io)  
 ![来个表情包看看效果](https://wx3.sinaimg.cn/mw690/00822bhDly1htmy4iw7tmj30u00s1786.jpg)  
-
+![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
 #### 表格
 
 | 左对齐 | 居中对齐 | 右对齐 |
@@ -101,6 +113,11 @@ def hello():
 ```
 
 
+
+* * *
+<!-- 这是一个注释，不会在渲染后的内容中显示 -->
+[//]: # "这是注释"
+[^_^]: # "这也是注释"
 
 
 
