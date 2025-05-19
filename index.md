@@ -1,6 +1,6 @@
 ---
 layout: default
-title: badada的网页Title
+title: badada's Blog Title
 ---
 
 # Blog Blog Blog!
@@ -13,6 +13,10 @@ Welcome to my little corner of the internet!
 >
 > LET'S DO IT.
 > 
+
+
+
+
 <!-- 
     <!DOCTYPE html>
     <html>
@@ -21,8 +25,7 @@ Welcome to my little corner of the internet!
           <!-- 
             这里是 head 部分，用于定义元数据和引入 CSS/JS这是一个段落。
             在 HTML 中，<title> 标签的内容 ​不会直接显示在网页的可见内容区域，而是有特定的显示位置和作用。
-    
-        -->
+          -->
     </head>
     <body>
         <!-- 这里是 body 部分，所有可见内容都写在这里 -->
