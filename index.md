@@ -36,12 +36,49 @@ Welcome to my little corner of the internet!
 - 需要学习html+css+JS
   - 子项目（缩进2空格）
 
+<!-- 向b站up：Box_盒马，学习，网站链接：https://async-area.com -->
 
 #### 有序列表 
 
-1. 第一项
-2. 第二项
-   1. 子项
+标准 Markdown 本身并不直接支持分栏
+
+1. 第一种方法
+ <div style="display: flex; justify-content: space-between; gap: 20px;">
+  <div style="flex: 1; background-color: #f0f0f0; padding: 15px;">
+    **左侧栏目**
+    - 支持完整的 Markdown 语法
+    - 这里是左侧的内容
+  </div>
+  <div style="flex: 1; background-color: #e0e0e0; padding: 15px;">
+    **右侧栏目**
+    - 右侧的内容区域
+    - 同样可以自由编辑
+  </div>
+</div>
+
+2. 第二种方法
+<div style="width: 48%; float: left; background-color: #f0f0f0; padding: 10px;">
+    **左侧浮动栏目**
+    - 左侧内容
+</div>
+<div style="width: 48%; float: right; background-color: #e0e0e0; padding: 10px;">
+    **右侧浮动栏目**
+    - 右侧内容
+</div>
+<div style="clear: both;"></div> <!-- 清除浮动，重要！ -->
+
+3. 第三种方法
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+  <div style="padding: 15px;">
+    **Grid 左栏**
+    - 网格布局中的第一列
+  </div>
+  <div style="padding: 15px;">
+    **Grid 右栏**
+    - 网格布局中的第二列
+  </div>
+</div>
+
 
 #### 链接与图片
 
