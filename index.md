@@ -43,6 +43,7 @@ Welcome to my little corner of the internet!
 标准 Markdown 本身并不直接支持分栏
 
 1. 第一种方法
+
  <div style="display: flex; justify-content: space-between; gap: 20px;">
   <div style="flex: 1; background-color: #f0f0f0; padding: 15px;">
     **左侧栏目**
@@ -57,6 +58,7 @@ Welcome to my little corner of the internet!
 </div>
 
 2. 第二种方法
+
 <div style="width: 48%; float: left; background-color: #f0f0f0; padding: 10px;">
     **左侧浮动栏目**
     - 左侧内容
@@ -68,6 +70,7 @@ Welcome to my little corner of the internet!
 <div style="clear: both;"></div> <!-- 清除浮动，重要！ -->
 
 3. 第三种方法
+
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
   <div style="padding: 15px;">
     **Grid 左栏**
