@@ -45,48 +45,68 @@ Welcome to my little corner of the internet!
 1. 第一种方法
 
  <div style="display: flex; justify-content: space-between; gap: 20px;">
+   
   <div style="flex: 1; background-color: #f0f0f0; padding: 15px;">
+    
     **左侧栏目**
     - 支持完整的 Markdown 语法
-    - 这里是左侧的内容
+    - 这里是左侧的内容aqqqqqqqqqq左分栏
+    
   </div>
+  
   <div style="flex: 1; background-color: #e0e0e0; padding: 15px;">
+    
     **右侧栏目**
     - 右侧的内容区域
     - 同样可以自由编辑
+    
   </div>
+  
 </div>
 
 2. 第二种方法
 
 <div style="width: 48%; float: left; background-color: #f0f0f0; padding: 10px;">
+  
     **左侧浮动栏目**
     - 左侧内容
+    
 </div>
+
 <div style="width: 48%; float: right; background-color: #e0e0e0; padding: 10px;">
+  
     **右侧浮动栏目**
     - 右侧内容
+    
 </div>
+
 <div style="clear: both;"></div> <!-- 清除浮动，重要！ -->
 
 3. 第三种方法
 
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+  
   <div style="padding: 15px;">
+    
     **Grid 左栏**
     - 网格布局中的第一列
+    
   </div>
+  
   <div style="padding: 15px;">
+    
     **Grid 右栏**
     - 网格布局中的第二列
+    
   </div>
+  
 </div>
 
 
 #### 链接与图片
 
 [Blog](https://badadabanana.github.io)  
-![来个表情包看看效果](https://wx3.sinaimg.cn/mw690/00822bhDly1htmy4iw7tmj30u00s1786.jpg)  
+![来个表情包看看效果](https://wx3.sinaimg.cn/mw690/00822bhDly1htmy4iw7tmj30u00s1786.jpg)  <!-- 不知道为什么显示不了 -->
 ![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
 #### 表格
 
