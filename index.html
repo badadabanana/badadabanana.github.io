@@ -1,51 +1,26 @@
-    <!DOCTYPE html>   <!-- 使用最新的html版本来解析代码 -->
-    <html>   
-    <head>
-      <meta charset="UTF-8">  
-      <!-- 
-      字符集指多个字符的集合，并且字符集会对其编码，以便计算机识别与储存文字。而世界上的字符集非常多，使用不同的字符集，网页呈现的效果也不同。为了让网页以正确的字符集解析我们的网页，所以要规定字符集。此处我们使用的字符集UTF-8为万国码。这个字符集几乎包含了全世界所有国家需要用到的字符。 
-      -->
-      <title>badada的网页Title</title>
-          <!-- 
-            这里是 head 部分，用于定义元数据和引入 CSS/JS这是一个段落。
-            在 HTML 中，<title> 标签的内容 ​不会直接显示在网页的可见内容区域，而是有特定的显示位置和作用。
-          -->
-    </head>
-    <body>
-        <!-- 这里是 body 部分，所有可见内容都写在这里 -->
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的第一个静态网站</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
         <h1>欢迎访问我的网站</h1>
-        <!-- 这个 h1 标签是页面的主标题 -->
-        <p>hihi,badada.</p>
-        <p> 想要赛博朋克像素风类的，可以用Excel自制像素风图画</p>
-        <p> 想要创建目录超链接，最好是冻结在左侧或最上方</p>
-        <p> 想要评论留言功能</p>
-        <p>想要做笔记功能，不需要打开代码编写的内容 </p>
-        <p> 想要做笔记功能，不需要打开代码编写的内容</p>
-        <p>需要学习html+css+JS </p>
-        <p> </p>
-        
-        <!-- 
-        这是一个段落。
-        这里是多行注释，
-        可以写更详细的说明。
-      在纯HTML环境下，<div></div>标签内部的元素会独占一行网页空间，而<span></span>内的元素会与其它元素共用一行。
-
-
-      <!-- 向b站up：Box_盒马，学习，网站链接：https://async-area.com -->
-      
-      <img src=./图标/圣诞雪花.png>
-    </body>
-    </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
+        <nav><!-- 导航链接 --></nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>关于我</h2>
+            <p>这是一个段落。</p>
+            <img src="path/to/your/image.jpg" alt="图片描述">
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 我的网站</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
